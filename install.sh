@@ -19,8 +19,8 @@ fi
 echo "Downloading binary file: ${ARCH}"
 TAG=$(cat /qbittorrent/ReleaseTag)
 echo "qbittorrent version: ${TAG}"
-echo "download url: https://github.com/gowinder/docker-qbittorrent/releases/download/${TAG}/${ARCH}.zip"
-wget -O ${PWD}/qbittorrent.zip https://github.com/gowinder/docker-qbittorrent/releases/download/${TAG}/${ARCH}.zip
+echo "download url: https://github.com/SuperNG6/docker-qbittorrent/releases/download/${TAG}/${ARCH}.zip"
+wget -O ${PWD}/qbittorrent.zip https://github.com/SuperNG6/docker-qbittorrent/releases/download/${TAG}/${ARCH}.zip
 
 echo "Download binary file: ${ARCH} completed"
 
